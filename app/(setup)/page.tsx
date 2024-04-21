@@ -1,5 +1,4 @@
 import InitialModal from "@/components/modals/initial-modal";
-import Navbar from "@/components/navbar";
 import { db } from "@/lib/db";
 import { initialProfile } from "@/lib/initial-profile";
 import { Download } from "lucide-react";
@@ -11,7 +10,6 @@ const SetupPage = async () => {
       <div className=" w-full h-full bg-white  overflow-x-hidden ">
         <div className="relative bg-[#404eed] text-white min-w-0 w-full  h-[600px] z-0">
           <div className="flex flex-col items-center  z-50 h-full">
-            <Navbar />
             <div className=" max-w-[1180px] w-full pt-[20px] sm:pt-[50px]  md:pt-[90px] px-5 sm:px-[40px] h-fit flex flex-col justify-center lg:items-center z-20">
               <h1 className=" text-[23px] sm:text-[35px] md:text-[56px] capitalize font-extrabold ">
                 Want to chat?
